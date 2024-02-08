@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+.website-grid{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+.side-bar{
+    background-color: rgba(0, 0, 0, 0.87);
+    text-align: left;
+    height: 1000vh;
+}
+
+.name{
+    font-weight: 500;
+    font-size: 50px;
+    color: whitesmoke;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-top: 220px;
+    padding-bottom: 8px;
+    position: fixed;
+}
+
+.occupation{
+    color: rgb(195, 195, 195);
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 50px;
+    padding-bottom: 35px;
+    position: fixed;
+    padding-top: 300px;
+}
+
+.about-hyperlink, .projects-hyperlink{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+    margin-left: 50px;
+    position: fixed;
+    padding-top: 350px;
+}
+
+
+.about-hyperlink:hover, .projects-hyperlink:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.about-tag{
+    padding-bottom: 10px;
+}
+.profile-picture{
+    width: 220px;
+    border-radius: 120px;
+    position: fixed;
+}
+
+.profile-bar{
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-top: 125px;
+}
+
+.icons{
+    margin-top: 40px;
+    margin-left: 50px;
+    position: fixed;
+    padding-top: 400px;
+}
+
+.github-link, .linkedin-link, .email-link, .resume-link{
+    color: black;
+    text-decoration: none;
+    background-color: none;
+    margin-right: 1px;
+}
+
+.copyright{
+    padding-top: 25px;
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: 600px;
+    color: whitesmoke;
+    position: fixed;
+    padding-top: 495px;
+}
+
+
+.main-bar{
+    background-color: rgb(0, 0, 0, .8);
+}
+
+.work-title, .about-me-title, .education-title, .extracurricular-title{
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+
+.about-me-text{
+    color: rgb(195, 195, 195);
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 60px;
+    padding-top: 10px;
+    line-height: 1.2;
+}
+
+.degree-text{
+    color: whitesmoke;
+    font-size: 18px;
+    padding-left: 60px;
+    padding-top: 4px;
+    font-weight: 500;
+}
+.work-experience-container, .about-me-container, .education-container, .extracurricular-container{
+    width: 1000px;
+    margin-left: 50px;
+}
+
+.hr-style{
+    margin-left: 50px;
+}
+
+.relevant-text{
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 23px;
+    padding-left: 60px;
+    margin-top: 5px;
+}
+
+.education-grid, .work-grid,.extracurricular-grid{
+    display: grid;
+    grid-template-columns: 800px 1fr;
+}
+
+.date{
+    text-align: right;
+    color: whitesmoke;
+}
+
+
+.body-text{
+    color: rgb(195, 195, 195);
+    font-size: 14px;
+    margin-left: 60px;
+    margin-top: 5px;
+}
+
+.position-text{
+    font-size: 18px;
+    font-weight: 500;
+}
