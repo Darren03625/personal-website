@@ -14,7 +14,7 @@ p{
 .side-bar{
     background-color: rgba(0, 0, 0, 0.87);
     text-align: left;
-    height: 1000vh;
+    height: 185vh;
 }
 
 .name{
@@ -44,7 +44,6 @@ p{
     font-size: 18px;
     margin-left: 50px;
     position: fixed;
-    padding-top: 350px;
 }
 
 
@@ -55,6 +54,7 @@ p{
 
 .about-tag{
     padding-bottom: 10px;
+    padding-top: 350px;
 }
 .profile-picture{
     width: 220px;
@@ -72,7 +72,7 @@ p{
     margin-top: 40px;
     margin-left: 50px;
     position: fixed;
-    padding-top: 400px;
+    padding-top: 50px;
 }
 
 .github-link, .linkedin-link, .email-link, .resume-link{
@@ -89,7 +89,7 @@ p{
     font-weight: 600px;
     color: whitesmoke;
     position: fixed;
-    padding-top: 495px;
+    margin-top: 150px;
 }
 
 
@@ -109,7 +109,7 @@ p{
 .about-me-text{
     color: rgb(195, 195, 195);
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     padding-left: 60px;
     padding-top: 10px;
     line-height: 1.2;
@@ -125,10 +125,26 @@ p{
 .work-experience-container, .about-me-container, .education-container, .extracurricular-container{
     width: 1000px;
     margin-left: 50px;
+    border: 2px solid white;
+    padding-bottom: 50px;
+    margin-left: 110px;
+    margin-bottom: 12px;
+    box-shadow: 2.5px 2.5px 2.5px rgb(245, 245, 245, 0.15);
 }
 
+.work-experience-container:hover, .about-me-cotainer:hover, .education-container:hover, .extracurricular-container:hover{
+    background-color: rgb(0, 0, 0, .25);
+}
+
+.education-container{
+    margin-top: 20px;
+}
 .hr-style{
     margin-left: 50px;
+}
+
+.hr-bottom{
+    margin-top: 18px;
 }
 
 .relevant-text{
@@ -145,8 +161,9 @@ p{
 }
 
 .date{
-    text-align: right;
+    text-align: center;
     color: whitesmoke;
+    padding-top:10px;
 }
 
 
@@ -161,3 +178,4 @@ p{
     font-size: 18px;
     font-weight: 500;
 }
+
